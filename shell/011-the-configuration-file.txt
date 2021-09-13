@@ -1,0 +1,5 @@
+# Author: John Doe <john.doe@example.com>
+# Date: YYYY-MM-DD
+# File: 011-nano-config.txt
+
+<content>
