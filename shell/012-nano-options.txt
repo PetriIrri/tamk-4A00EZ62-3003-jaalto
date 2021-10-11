@@ -1,0 +1,28 @@
+File: 012-nano-options.txt
+Date: 2021-10-11
+Author: Petri Irri <petri.irri@tuni.fi>
+
+Explain what each of the option does by quoting manual page:
+    nano -E -T 4 -i -I nano-test.txt
+
+-E --tabstospaces
+Convert typed tabs to spaces.
+Tiedoston editoinnin ajan tabulaattorin lyönnit muunnetaan automaattisesti välilyönneiksi
+
+T 4 -T number, --tabsize=number
+Set  the  size  (width)  of a tab to number columns.  The value of number must be greater
+than 0.  The default value is 8.
+Tiedoston editoinnin ajan tabulaattorin lyönti on 4 saraketta. -E optionin takia se on
+neljä välilyöntiä
+
+-i -i, --autoindent
+Automatically indent a newly created line to the same number of tabs and/or spaces as the
+previous line (or as the next line if the previous line is the beginning of a paragraph).
+Automaattisesti huolehtii sisennyksistä edellisen rivin perusteella.
+
+-I --ignorercfiles
+Don't look at the system's nanorc nor at the user's nanorc.
+Ei huomio nanon asetus configuraatio tiedostoja.
+
+
+#End of file
