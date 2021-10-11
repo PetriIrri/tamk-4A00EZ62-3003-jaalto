@@ -1,0 +1,14 @@
+# Author: Petri Irri <petri.irri@tuni.fi>
+# Date: 2021-10-11
+# File: 024-vi-copy-paste.txt
+
+How to copy and paste in vi:
+in command mode you can use <dd> and <p> to cut and paste a line
+
+To copy and paste a line of text do:
+Enter visual line mode using V and select the line(s) that you want to copy.
+then press y (yank) to copy the line.
+Pressing p (paste) will paste the line.
+
+#end of file
+
