@@ -1,0 +1,9 @@
+File: 015-nano-keys-insert-file.txt
+Date: 2021-10-11
+Author: Petri Irri <petri.irri@tuni.fi>
+
+Insert file into cursor position
+Key binding: C-r
+nano will prompt for a filename C-t will let you choose from existing file names
+
+#End of file
