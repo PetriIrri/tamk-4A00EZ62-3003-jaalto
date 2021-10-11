@@ -1,0 +1,8 @@
+File: 017-nano-keys-line-numbers.txt
+Date: 2021-10-11
+Author: Petri Irri <petri.irri@tuni.fi>
+
+Toggle line numbers
+Key binding: M-n
+
+#End of file
