@@ -1,5 +1,20 @@
-# Author: John Doe <john.doe@example.com>
-# Date: YYYY-MM-DD
-# File: 011-nano-config.txt
+# Author: Petri Irri <petri.irri@tuni.fi>
+# Date: 2021-10-11
+# File: 011-the-configuration-file.txt
 
-<content>
+A. Where is each user's personal configuration file located?
+~/.nanorc
+	
+B. Configure following settings permanently:
+
+# Set standard indenting to 4
+set tabsize 4
+
+# Use only SPACE characters for indentation
+set tabstospaces
+
+# Don't wrap text at the end of line
+set nowrap
+
+#End of file
+
