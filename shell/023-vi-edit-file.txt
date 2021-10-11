@@ -1,0 +1,22 @@
+# Author: Petri Irri <petri.irri@tuni.fi>
+# Date: 2021-10-11
+# File: 023-vi-edit-file.txt
+
+Line up all the colons(:) characters:
+
+This is the test file
+File: vi-test.txt
+Date: YYYY-MM-DD
+Author: Foo Bar <foo.bar@example.com>
+
+ggV to open in visual line mode at the start of file.
+Highlight the lines that you want to modify or in this case input 3j to select 3 rows
+input :normal f:9i (notice the space at the end of the command)
+this puts nine spaces before the : character
+Now navigate to the column where you want the : to be flushed to. In this case one space after author.
+staying on the same column move to the first line and start visual block selection using C-v
+Move to the last line you want affected. In this case Author.
+you can then use < to shift the lines left. use < until all colons are aligned.
+
+#end of file
+
