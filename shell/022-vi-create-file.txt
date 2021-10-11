@@ -1,0 +1,27 @@
+# Author: Petri Irri <petri.irri@tuni.fi>
+# Date: 2021-10-11
+# File: 022-vi-create-file.txt
+
+How to create and save file:
+vi vi-test.txt
+You start in command mode where it is possible to enter commands.
+press i to enter insert mode.
+write:
+File: vi-test.txt
+Date: YYYY-MM-DD
+Author: Foo Bar <foo.bar@example.com>
+
+This is a test file created with vi(1) editor.
+
+End of file
+
+you can use Esc button to get back to command mode.
+then input: <:wq>
+
+in vi : is used for inputting commands in command mode.
+:wq saves the modifications made to the file and quits the editor.
+:w writes the current contents to the file. It is possible to specify a file to be written.
+:q quits the editor. It is possible to type :q! to forcibly quit without saving modifications.
+
+#end of file
+
