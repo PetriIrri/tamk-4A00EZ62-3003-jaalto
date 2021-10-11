@@ -1,0 +1,16 @@
+# Author: Petri Irri <petri.irri@tuni.fi>
+# Date: 2021-10-11
+# File: 021-vi-configuration-file.txt
+
+A. Where is each user's personal configuration file located?
+~/.vimrc
+
+B. Configure following settings permanently:
+# Set standard indenting to 4
+set tabstop=4
+
+# Use only SPACE characters for indentation
+set expandtab
+
+#end of file
+
