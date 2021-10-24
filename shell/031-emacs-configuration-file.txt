@@ -1,0 +1,14 @@
+File: 031-emacs-configuration-file.txt
+Date: 2021-10-24
+Author: Petri Irri <petri.irri@tuni.fi>
+
+Emacs configuration file is usually in one of three places:
+
+
+1. in ~/.emacs
+
+2. ~/.emacs.d/init.el
+
+3. ~/.emacs.d/personal/. Any .el file in that directory will be read when emacs starts.
+
+# END of file
