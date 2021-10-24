@@ -1,0 +1,22 @@
+File: 036-emacs-undo.txt
+Date: 2021-10-24
+Author: Petri Irri <petri.irri@tuni.fi>
+
+How to use search and replace.
+
+Example code:
+
+str firstName = "Kalalampi";
+system.out.printLn(firstName);
+firstName = "Kuhalampi";
+system.out.printLn(firstName);
+
+end of example.
+
+To search and replace all instances of variable firstName we can use M-x and type replace-string.
+It is important that the cursor is at the start of the file if you want to search the whole file.
+Then emacs asks what we want to replace. In this case it is firstName.
+After that it asks what we want to replace it with. In this case lastName is a good option.
+After this every instance below the cursor position is replaced with the given text.
+
+# END of file
