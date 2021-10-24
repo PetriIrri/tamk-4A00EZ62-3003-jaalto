@@ -1,0 +1,16 @@
+File: 034-emacs-copy-paste.txt
+Date: 2021-10-24
+Author: Petri Irri <petri.irri@tuni.fi>
+
+How to use regions and delete
+
+A: how to delete duplicate line
+Key binding C-k kills a line deleting all text on that line.
+You can also use region selection C-SPC and use C-w on the selection to cut it
+
+B: using region select to cut and paste
+First use region select with C-SPC and select the region to be cut
+Then ise C-w to cut the selected region.
+You can then paste the cut text with C-y
+
+# END of file
