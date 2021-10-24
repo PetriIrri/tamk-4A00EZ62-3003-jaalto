@@ -1,0 +1,31 @@
+File: 038-emacs-files.txt
+Date: 2021-10-24
+Author: Petri Irri <petri.irri@tuni.fi>
+
+A: open two files
+You can open another file into the buffer with C-x C-f.
+To switch between buffers use C-x b. By default it takes you back to previously visited
+buffer or you can type the name of the buffer.
+C-x C-b gives you a list of buffers. 
+
+B: Display both files in window view
+first open another file into buffer.
+Split the window in half with C-x 2.
+move to the another window with C-x o.
+use C-x b to open the file from buffer.
+
+C: Edit both files in turn
+You can move between the files with C-x o.
+You can use this to switch between the files and edit whichever you want.
+
+D: Copy a line from one buffer to another
+First select the region you want to copy with C-SPC.
+Then copy the selected region with M-w.
+Switch the window with C-x o.
+And finally use C-y to paste the text.
+
+E: Save both files
+You can save all files in buffer with C-x s.
+Emacs prompts for answer for each of the files to be saved.
+
+# END of file
