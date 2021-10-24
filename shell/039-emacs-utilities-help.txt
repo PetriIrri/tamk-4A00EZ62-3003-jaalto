@@ -1,0 +1,35 @@
+File: 039-emacs-utilities-help.txt
+Date: 2021-10-24
+Author: Petri Irri <petri.irri@tuni.fi>
+
+A: What is a buffer?
+Buffers are lisp objects containing text to be edited.
+Buffers are used to hold content of files being visited.
+
+B: What is/are the mode(s) of a buffer?
+Every buffer has one major mode for editing or interacting with one particular kind of text.
+They also have minor modes which provide features the user can turn on and off.
+
+C: What is a window?
+A window ia a view of one buffer. A window can be split into multiple windows.
+
+What does help key bindings do:
+
+A: C-h ?
+Opens a list of all the help commands.
+
+B: C-h m
+Displays documentation of the current major and minor modes.
+
+C: C-h b
+Displays all active keybindings. first minor modes then major modes and finally global bindings
+
+How to run utilities like:
+
+tetris: M-x tetris
+
+calendar: M-x calendar
+
+Examine file in hex editor: M-x hexl-find-file
+
+# END of file
