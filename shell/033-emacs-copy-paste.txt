@@ -1,0 +1,11 @@
+File: 033-emacs-copy-paste.txt
+Date: 2021-10-24
+Author: Petri Irri <petri.irri@tuni.fi>
+
+How to use copy paste.
+
+First select a region to copy. You can do this by setting a mark with C-SPC.
+Move the cursor over to the area you want to select and use command M-w to copy.
+Then you can paste the text with command C-y.
+
+# END of file
