@@ -1,0 +1,30 @@
+File: 042-shell-change-directory.txt
+Date: 2021-10-26
+Author: Petri Irri <petri.irri@tuni.fi>
+
+Initialising the directory structure under $HOME/tmp/test2:
+
+mkdir dir1 dir1/dir2 dir/dir2/dir3
+touch dir1/1.txt dir1/2.txt dir1/dir2/1.tmp dir1/dir2/2.tmp dir1/dir2/dir3/1.lst dir1/dir2/dir3/2.lst
+
+Changing the directory structure:
+
+mv dir1/dir2/*.tmp dir1/dir2/dir3/
+mv dir1/1.txt dir1/dir2/
+mv dir1/dir2/dir3/1.lst dir1/
+mv dir1/dir2/dir3/2.lst dir1/dir2/
+
+final directory structure
+.
+└── dir1
+    ├── 1.lst
+    ├── 2.txt
+    └── dir2
+        ├── 1.txt
+        ├── 2.lst
+        └── dir3
+            ├── 1.tmp
+            └── 2.tmp
+
+# END OF FILE
+
