@@ -1,0 +1,18 @@
+File: 043-shell-cp-command.txt
+Date: 2021-10-26
+Author: Petri Irri <petri.irri@tuni.fi>
+
+Purpose of options in cp command:
+
+-v = --verbose explain what is being done
+
+-u = -update copy only when the SOURCE file is newer than the destination file or when the destination file is missing
+
+-p = same as --preserve=mode,ownership,timestamps
+       --preserve[=ATTR_LIST]
+              preserve the specified attributes (default: mode,ownership,timestamps), if possible additional attributes: context, links, xattr, all
+
+-r = --recursive copy directories recursively
+
+# END OF FILE
+
