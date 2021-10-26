@@ -1,4 +1,4 @@
-File: 046-shell-cut.command.txt
+File: 046-shell-cut-command.txt
 Date: 2021-10-26
 Author: Petri Irri <petri.irri@tuni.fi>
 
