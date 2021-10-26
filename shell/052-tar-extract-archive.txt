@@ -1,0 +1,12 @@
+File: 052-tar-extract-archive.txt
+Date: 2021-10-26
+Author: Petri Irri <petri.irri@tuni.fi>
+
+Extract only one file from a tar archive:
+
+This extracts only the README file from project folder.
+
+tar -zxvf archive.tar.gz project/README
+
+# END OF FILE
+
