@@ -1,0 +1,12 @@
+File: 047-shell-more-commands.txt
+Date: 2021-10-26
+Author: Petri Irri <petri.irri@tuni.fi>
+
+More commands explained:
+
+nl    = is used for numbering lines and accepts input from a file or STDOUT. Has option to include empty lines.
+grep  = is a command-line tool used to search for specified characters in a specified file. Displays every line where it finds a match
+paste = allows you to merge lines horizontally from different files. Output can be redirected to a file with > and >> operators.
+
+# END OF FILE
+
