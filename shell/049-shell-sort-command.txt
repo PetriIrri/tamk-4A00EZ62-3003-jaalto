@@ -1,0 +1,34 @@
+File: 049-shell-sort-command.txt
+Date: 2021-10-26
+Author: Petri Irri <petri.irri@tuni.fi>
+
+original database:
+Adams, Fran     2-3876
+Smith, Terry    7-7989
+Smith, Pat      9-3545
+StClair, Pat    4-6122
+Stair, Chris    5-5972
+Benson, Sam     4-5587
+Brown, Robin    1-3745
+                | |
+                | local number
+                area code
+sort by lastname (first field) in reverse order:
+
+sort -r -k1,1 -t ',' names.txt
+
+result:
+
+Stair, Chris    5-5972
+StClair, Pat    4-6122
+Smith, Terry    7-7989
+Smith, Pat      9-3545
+Brown, Robin    1-3745
+Benson, Sam     4-5587
+Adams, Fran     2-3876
+                | |
+                | local number
+                area code
+
+# END OF FILE
+
