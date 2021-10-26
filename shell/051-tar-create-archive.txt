@@ -1,0 +1,31 @@
+File: 051-tar-create-archive.txt
+Date: 2021-10-26
+Author: Petri Irri <petri.irri@tuni.fi>
+
+Initialising directory structure:
+mkdir project project/doc project/src
+touch doc/manual.txt src/Main.java
+touch project/README
+
+result:
+project
+├── README
+├── doc
+│   └── manual.txt
+└── src
+    └── Main.java
+
+how to make tar archive of the directory:
+tar -czvf archive.tar.gz project/
+
+resulting tar archive:
+project/
+project/doc/
+project/doc/manual.txt
+project/README
+project/src/
+project/src/Main.java
+
+
+# END OF FILE
+
