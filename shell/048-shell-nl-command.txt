@@ -1,0 +1,40 @@
+File: 048-shell-nl-command.txt
+Date: 2021-10-26
+Author: Petri Irri <petri.irri@tuni.fi>
+
+How to display a file with line numbers using nl command:
+nl -b a 048-shell-nl-command.txt 
+
+option -b is for changing the style of the result. parameter a tells the command to number all lines.
+nl [OPTION] [FILE]
+
+this outputs the following: 
+
+1  File: 048-shell-nl-command.txt
+2  Date: 2021-10-26
+3  Author: Petri Irri <petri.irri@tuni.fi>
+4
+5  How to display a file with line numbers using nl command:
+6  nl -b a 048-shell-nl-command.txt
+7
+8  this outputs the following:
+9
+10  1  File: 048-shell-nl-command.txt
+11  2  Date: 2021-10-26
+12  3  Author: Petri Irri <petri.irri@tuni.fi>
+13  4
+14  5  How to display a file with line numbers using nl command:
+15  6  nl -b a 048-shell-nl-command.txt
+16  7
+17  8  this outputs the following:
+18  9
+19  10  # END OF FILE
+20  11
+21
+22
+23  # END OF FILE
+24
+
+
+# END OF FILE
+
