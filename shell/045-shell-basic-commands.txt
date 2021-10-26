@@ -1,0 +1,14 @@
+File: 045-shell-basic.commands.txt
+Date: 2021-10-26
+Author: Petri Irri <petri.irri@tuni.fi>
+
+Basic commands:
+
+cut  = is used to cut out parts of lines in a file. It needs an option that specifies if it cuts by byte position, character or field.
+head = shows by default the ten first lines of a file it is given. With option -n it is possible to specify number of lines.
+tail = same as head but shows by defaul the last ten lines of a file it is given. option -n specifies the number of lines shown
+sort = sorts a given file alphabetically with lines that start with numbers first. Does not modify the input file.
+unig = filters out repeated lines in a file. it requires an input file and it is optional to give it an output file.
+
+# END OF FILE
+
