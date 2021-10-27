@@ -1,0 +1,66 @@
+# Author: Petri Irri <petri.irri@tuni.fi>
+# Date: 2021-10-27
+# File: 021-git-config.txt
+
+Explain what is need to get started with Git. Where is the
+configuration file? How to use it? Do the following:
+
+The git configuration file is in $HOME/.gitconfig
+Any git reads any changes written there.
+Git config can also be modified by using git config command
+
+A. Define in user's configuration file: your "name" and "email".
+In users configuration file ($HOME/.gitconfig) add following
+[user]
+        name = Petri Irri
+        email = petri.irri@tuni.fi
+
+B. Add parameter "excludesfile" and point it to ~/.gitignore.
+In ~/.gitignore add common file wild cards to ignore, like
+Java's *.class files etc.
+
+git config --global core.excludesFile '~/.gitignore'
+or you can write it straight to .gitconfig file.
+
+global .gitignore contents:
+# Files
+*.gz
+*.tmproj
+*.7z
+*.class
+
+# Folders
+.vscode/
+build/
+
+C. Add couple of aliases to Git's user's configuration file.
+Comments can be added with "#".
+Define following aliases:
+
+b  = branch
+ci = commit
+co = checkout
+cp = cherry-pick
+st = status --short --branch
+
+# Edit last commit message (only possible before push)
+edit = git commit --amend
+
+You can define aliases by writing them to the .gitconfig file.
+Or through cli: git config --global alias.co checkout
+
+My list of aliases:
+[alias]
+        ci = commit
+        co = checkout
+        st = status --short --branch
+        b = branch
+        cat = show
+        cp = cherry-pick
+        Log = log --date=short --pretty='format:%h %ci %s'
+        edit = commit --amend
+
+
+
+# End of file
+
