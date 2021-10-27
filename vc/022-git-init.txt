@@ -1,0 +1,27 @@
+# Author: Petri Irri <petri.irri@tuni.fi>
+# Date: 2021-10-27
+# File: 022-git-init.txt
+
+Create directory structure:
+
+mkdir project.git
+cd project.git
+mkdir doc src web web/pic
+touch doc/doc.txt doc/test.rtf src/Program.java src/Class1.java src/Class2.java web/index.html web/pic/image.jpg
+
+Creating git repository and committing every file in folder:
+Still in project.git folder
+
+git init
+git add .
+git commit -m "First commit"
+
+git log
+commit d2743e23a897ba4a23cfc229f83c754b0e88b35b (HEAD -> master)
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Wed Oct 27 17:57:03 2021 +0300
+
+    First commit
+
+# End of file
+
