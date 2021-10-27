@@ -9,7 +9,7 @@ touch project1/src/One.java project2/src/Two.java
 
 cp One.java One.java.orig
 
-diff One.java One.java.orig > One.java.patch
+diff -u One.java One.java.orig > One.java.patch
 
 # End of file
 
