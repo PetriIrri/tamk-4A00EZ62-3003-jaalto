@@ -1,0 +1,93 @@
+# Author: Petri Irri <petri.irri@tuni.fi>
+# Date: 2021-10-28
+# File: 023-git-commit.txt
+
+Git log of changes committed:
+
+commit dae7f357fed9e06cb0c3b86e4fc73a325bee2321 (HEAD -> master)
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 09:21:54 2021 +0300
+
+    Change the date format in getDate().
+
+    Changed the date format to not display seconds.
+
+commit 28a063be40948936bd28d762500ea550e20d34c5
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 09:18:10 2021 +0300
+
+    Rename getCurrentDate() to getDate().
+
+    Renamded getCurrentDate to getdate() because getCurrentdate caused
+    conflicts in code. Updated the name to Main.java.
+
+commit cf353765e44eccbd14f329d6610a14b3d7e3b4ae
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 09:12:54 2021 +0300
+
+    Change getDate() method name to getCurrentDate().
+
+    Changed in Today.java getDate() to getCurrentDate().
+    Also changed in Main.java main() the method call getDate()
+    to getCurrentDate().
+
+commit 39570674829689e132087fbb5c989c68c5449cfc
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 09:08:29 2021 +0300
+
+    Modify main() now prints todays date using Today.java.
+
+    Main.java now imports Today.java and uses its getDate() to print
+    current time and date.
+
+commit b7847781956c972af7bfe79ef83d47472ed9340c
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 09:05:32 2021 +0300
+
+    Add: Today.java that gets todays date and prints it.
+
+    getDate() gets todays date and prints it.
+
+commit dcee579863468918090d463878de526bb8c2b022
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 08:58:57 2021 +0300
+
+    Modify main() to actually tell user what their random number is.
+
+    main() now tells user that the number printed on screen is their
+    random number.
+
+commit 24e09b402e00eb6de020dd156a6236ca56964758
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 08:56:21 2021 +0300
+
+    Modify main() to print a random number.
+
+    main() now greets user and prints a random number between 0-999.
+
+commit 3b3eaace0259f535ce678689b736c70e68ed3476
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 08:51:09 2021 +0300
+
+    Modify main(): program now asks for users name.
+
+    main method now asks for users name and prints: "Hello name!"
+
+commit 1c2670705b1ba65bcfdacdffbc9e5d4e37d0d4a0
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 08:43:36 2021 +0300
+
+    Fix typo in Main.java.
+    Program now prints "Hello world!".
+
+commit 5a2aac0224e9bded4e526cf281d1662b74370587
+Author: Petri Irri <petri.irri@tuni.fi>
+Date:   Thu Oct 28 08:40:56 2021 +0300
+
+    Add: Helloworld program Main.java.
+
+    Program prints "Helloworld".
+
+
+# End of file
+
