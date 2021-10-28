@@ -1,0 +1,65 @@
+# Author: Petri Irri <petri.irri@tuni.fi>
+# Date: 2021-10-28
+# File: 024-git-index.txt
+
+A:
+git add test1.txt
+
+git status
+
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test1.txt
+
+git reset HEAD test1.txt
+
+Unstaged changes after reset:
+M       test1.txt
+
+git status
+
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+B:
+
+git rm test2.txt
+rm 'test2.txt'
+
+git status
+
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    test2.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test1.txt
+
+git checkout HEAD test2.txt
+Updated 1 path from 563b6e3
+
+ls
+test1.txt  test2.txt
+
+git status
+
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+# End of file
+
